@@ -1,0 +1,26 @@
+[
+{
+"username":"aditya@email.com",
+"password":"Aditya@123",
+"product":"Samsung galaxy s6",
+"name":"Aditya",
+"country":"Canada",
+"city":"Kitchener",
+"cardnum":"459810007895",
+"month":"09",
+"year":"2028"
+
+},
+{
+"username":"validid@email.com",
+"password":"validid",
+"product":"HTC One M9",
+"name":"Aditya",
+"country":"Canada",
+"city":"Kitchener",
+"cardnum":"4598100078795",
+"month":"11",
+"year":"2029"
+
+}
+]

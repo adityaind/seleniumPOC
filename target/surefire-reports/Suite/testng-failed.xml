@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="listeners.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Grouping(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="LoginCreds"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.LoginCredsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="invalidEmail"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- tests.LoginCredsTest -->
+    </classes>
+  </test> <!-- Grouping(failed) -->
+</suite> <!-- Failed suite [Suite] -->
